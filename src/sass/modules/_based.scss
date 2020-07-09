@@ -1,0 +1,52 @@
+
+@import "./variables";
+
+html {
+    box-sizing: border-box;
+}
+
+body,html {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: $background-color;
+    overflow-x: hidden;
+}
+
+a, p {
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration: none;
+    color:$black-color;
+
+}
+
+h2 {
+    font-size: 32px;
+
+    @include sm {
+        font-size: 42px;
+    }
+
+    @include md {
+        font-size: 52px;
+    }
+
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+
+    @include sm {
+        font-size: 32px;
+    }
+
+    @include md {
+        font-size: 38px;
+    }
+}
+
+ul {
+    list-style: none;
+}

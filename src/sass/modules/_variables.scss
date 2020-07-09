@@ -1,0 +1,56 @@
+$white-color:#FFFF;
+$background-color:#fafafa;
+$black-color: #000000;
+$nav-color:#717171;
+$nav-border:#fcfdfe;
+$grey-color:#e3e7e6;
+$background-copyright:#f9f9f9;
+$button-slider:#e9e9e9;
+
+
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+@mixin circle-backround {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: $white-color;
+  border-radius: 100%;
+  
+}
+
+@mixin button {
+  padding: 10px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 20px 0;
+  text-align: center;
+
+  @include sm {
+    padding: 15px 30px;
+  }
+
+  @include md {
+    padding: 15px 60px;
+  }
+}
+
+@mixin sm {
+  @media (min-width: $screen-sm) {
+    @content
+  }
+}
+
+@mixin md {
+  @media (min-width: $screen-md) {
+    @content
+  }
+}
+
+@mixin lg {
+  @media (min-width: $screen-lg) {
+    @content
+  }
+}

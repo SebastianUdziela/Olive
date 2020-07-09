@@ -734,7 +734,9 @@ footer {
           font-size: 42px; }
       footer .footer__container .footer__columns .footer__column-contact {
         width: 100%;
-        text-align: left; }
+        text-align: left;
+        max-width: 300px;
+        margin: 0 auto; }
         footer .footer__container .footer__columns .footer__column-contact .footer__column-contact--wrapper {
           display: flex; }
           footer .footer__container .footer__columns .footer__column-contact .footer__column-contact--wrapper i {

@@ -759,6 +759,8 @@ footer {
             .footer__column-contact{
                 width: 100%;
                 text-align: left;
+                max-width: 300px;
+                margin: 0 auto;
 
                 .footer__column-contact--wrapper {
                     display: flex;

@@ -156,11 +156,10 @@ header.active {
                 }
 
             ul {
-                margin-top: -1px;
                 opacity: 1;
                 max-height: 300px;
                 background-color: $white-color;
-                margin: 0;
+                margin: -1px 0;
                 padding: 0;
                 text-align: center;
                 position: relative;
